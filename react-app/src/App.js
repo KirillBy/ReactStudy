@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { store } from "./actions/store";
 import { Provider } from "react-redux";
@@ -19,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
