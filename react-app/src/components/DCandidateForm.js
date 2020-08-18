@@ -1,6 +1,7 @@
+import React, { useState, useEffect } from "react";
 const DCandidateForm = (props) => {
     // eslint-disable-next-line react/react-in-jsx-scope
-    return ( <div>form DCandidates</div> ) ;
+    return ( <div>FormDCandidates</div> ) ;
 }
 
 export default DCandidateForm;
