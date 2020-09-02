@@ -18,11 +18,11 @@ h2{
     color: grey;
 }
 `
-const AppHeader = () => {
+const AppHeader = ({liked, allPosts}) => {
     return (
         <Header >
             <h1>Kirill Balanovich</h1>
-            <h2>5 tweets, liked 0</h2>
+    <h2>{allPosts} tweets, liked {liked}</h2>
         </Header>
     )
 }
